@@ -8,11 +8,6 @@ const Form = () => {
         age: 0
     })
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        
-    }
-
     const handleChange = (e) => {
         const key = e.target.name
         const value = e.target.value
@@ -28,7 +23,7 @@ const Form = () => {
 
   return (
     <div>
-        <form onSubmit={handleSubmit}>
+        <form >
             <input onChange={handleChange} name="firstName" type="text" placeholder="First Name"/><br/>
             <input onChange={handleChange} name="lastName" type="text" placeholder="Last Name"/><br/>
             <input onChange={handleChange} name="email" type="text" placeholder="Email"/><br/>
