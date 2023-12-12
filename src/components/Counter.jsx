@@ -12,7 +12,7 @@ const Counter = () => {
   return (
     <>
         {/* whenever we call on a "count" we can check the value of that state */}
-        <h1>{count}</h1>
+        <p id="counter">{count}</p>
         {/* whenever we invoque on setCount, we will pass some parameter that will change the value of "count"  */}
         <button onClick={() => setCount(count - 1)}>
         -

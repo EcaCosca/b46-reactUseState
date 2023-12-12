@@ -6,23 +6,23 @@ import FruitList from './components/FruitList'
 
 function App() {
   const [user, setUser] = useState({
-      firstName: "Mustafa",
-      lastName: "Cantremembersorry",
-      email: "Msorryagain@gmail.com",
-      age: 20
+      firstName: "Enrique",
+      lastName: "Coscarelli",
+      email: "ecosca@wbs.com",
+      age: 35
   })
 
   return (
     <>
       <h1>Intro to React</h1>
 
-      {/* <h2>Counter</h2>
-      <Counter /> */}
+      <h2>Counter</h2>
+      <Counter />
 
-      {/* <h2>Fruit list</h2>
-      <FruitList /> */}
+      <h2>Fruit List</h2>
+      <FruitList />
 
-      <h2>Form</h2>
+      <h2>User Form</h2>
       <Form user={user} setUser={setUser}/>
 
     </>

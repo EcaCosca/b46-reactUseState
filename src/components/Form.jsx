@@ -21,11 +21,13 @@ const Form = ({user, setUser}) => {
             <input onChange={handleChange} name="firstName" type="text" placeholder="First Name"/><br/>
             <input onChange={handleChange} name="lastName" type="text" placeholder="Last Name"/><br/>
             <input onChange={handleChange} name="email" type="text" placeholder="Email"/><br/>
-            <input onChange={handleChange} name="age" type="number" placeholder="age"/><br/>
+            <input onChange={handleChange} name="age" type="number" placeholder="Age"/><br/>
             <input type="submit" value="Submit"/>
         </form>
-        <h3>Hello {user.firstName} {user.lastName}</h3>
-        <p>According to our records you are {user.age} and your email is {user.email}</p>
+        <div className='user-card'>
+            <h3>Hello {user.firstName} {user.lastName}!</h3>
+            <p>According to our records you are <em>{user.age}</em> and your email is <em>{user.email}</em></p>
+        </div>
     </div>
   )
 }

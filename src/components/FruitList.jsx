@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 
 const FruitList = () => {
     const [fruits, setFruits] = useState([
-        "banana",
-        "apple",
-        "orange"
+        "Banana",
+        "Apple",
+        "Orange"
     ])
 
     const [newFruit, setNewFruit] = useState("")
