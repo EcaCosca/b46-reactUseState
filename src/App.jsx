@@ -13,11 +13,11 @@ function App() {
       {/* <h2>Counter</h2>
       <Counter /> */}
 
-      <h2>Fruit list</h2>
-      <FruitList />
+      {/* <h2>Fruit list</h2>
+      <FruitList /> */}
 
-      {/* <h2>Form</h2>
-      <Form /> */}
+      <h2>Form</h2>
+      <Form />
 
     </>
   )
