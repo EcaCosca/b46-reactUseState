@@ -1,12 +1,6 @@
 import React, {useState} from 'react'
 
-const Form = () => {
-    const [user, setUser] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        age: 0
-    })
+const Form = ({user, setUser}) => {
 
     const handleChange = (e) => {
         const key = e.target.name

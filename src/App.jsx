@@ -5,6 +5,12 @@ import Form from './components/Form'
 import FruitList from './components/FruitList'
 
 function App() {
+  const [user, setUser] = useState({
+      firstName: "Mustafa",
+      lastName: "Cantremembersorry",
+      email: "Msorryagain@gmail.com",
+      age: 20
+  })
 
   return (
     <>
@@ -17,7 +23,7 @@ function App() {
       <FruitList /> */}
 
       <h2>Form</h2>
-      <Form />
+      <Form user={user} setUser={setUser}/>
 
     </>
   )
