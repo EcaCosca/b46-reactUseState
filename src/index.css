@@ -116,6 +116,10 @@ input:focus-visible {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.under-age {
+  background-color: #ff7c7c;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
